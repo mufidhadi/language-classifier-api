@@ -11,6 +11,7 @@ This project provides a lightweight REST API for language classification using a
 - [Docker Deployment](#docker-deployment)
 - [Technologies Used](#technologies-used)
 - [License](#license)
+- [Thanks & Credits](#credits)
 
 ---
 
@@ -117,7 +118,9 @@ This project is licensed under the **MIT License**.
 
 ---
 
-Happy coding! 🚀✨ If you encounter any issues, feel free to open an issue or contribute to the project!
-
 ## 🤗 **Thanks & Credits**
 Thanks to https://huggingface.co/qanastek/51-languages-classifier for the language classification model
+
+---
+
+Happy coding! 🚀✨ If you encounter any issues, feel free to open an issue or contribute to the project!
