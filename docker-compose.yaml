@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  language-classifier:
+    build: .
+    container_name: language-classifier-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./51-languages-classifier-onnx:/app/51-languages-classifier-onnx
+    environment:
+      - FLASK_ENV=production
