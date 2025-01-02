@@ -6,12 +6,13 @@ This project provides a lightweight REST API for language classification using a
 - [Overview](#overview)
 - [Features](#features)
 - [Setup Instructions](#setup-instructions)
+- [Model Download](#model-download)
 - [Environment Variables](#environment-variables)
 - [API Documentation](#api-documentation)
 - [Docker Deployment](#docker-deployment)
 - [Technologies Used](#technologies-used)
+- [Credits](#credits)
 - [License](#license)
-- [Thanks & Credits](#credits)
 
 ---
 
@@ -49,6 +50,16 @@ python app.py
 ```
 
 The API will be available at: `http://127.0.0.1:5000`
+
+---
+
+## 📥 **Model Download**
+1. Download the ONNX model from the following link:
+   [Language Classifier ONNX Model](https://drive.google.com/file/d/1nG63vuVKiI5htpF40K5_GvXWBw3GK8Hy/view?usp=drive_link)
+2. Place the downloaded model file as:
+   ```
+   51-languages-classifier-onnx/model.onnx
+   ```
 
 ---
 
@@ -113,13 +124,13 @@ docker-compose down
 
 ---
 
-## 📄 **License**
-This project is licensed under the **MIT License**.
+## 🙌 **Credits**
+- Thanks to [qanastek/51-languages-classifier](https://huggingface.co/qanastek/51-languages-classifier) for the language classification model
 
 ---
 
-## 🤗 **Thanks & Credits**
-Thanks to https://huggingface.co/qanastek/51-languages-classifier for the language classification model
+## 📄 **License**
+This project is licensed under the **MIT License**.
 
 ---
 
